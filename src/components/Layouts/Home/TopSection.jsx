@@ -16,7 +16,7 @@ const TopSection = () => {
     const [amount, setAmount] = useState(0);
     const [buyButtonEnabled, setBuyButtonEnabled] = useState(false);
     const [api, contextHolder] = notification.useNotification();
-    //
+
     const [tokenContractIPS, setTokenContractIPS] = useState(null);
     const [consumedAmount, setConsumedAmount] = useState(0);//luong tieu thu
     const [maxAmount, setMaxAmount] = useState(100000000);
